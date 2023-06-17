@@ -1,0 +1,76 @@
+body {
+    text-align: center;
+    margin: 20px;
+    background-color:rgb(52, 139, 216) ;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 80px;
+    color: rgb(122, 36, 192);
+    margin:0;
+}
+
+header p {
+    background-color: rgb(30, 91, 145);
+    margin: 30px auto 0 auto;
+    padding: 20px;
+    font-size: 30px;
+    margin: 20px;
+    color: rgb(207, 21, 21);
+}
+
+main h2 {
+    color: rgb(26, 11, 231);
+    font-family: 'swald', sans-serif;
+}
+
+ol {
+    font-size: 35px;
+    font-family: 'Fira sans', sans-serif;
+    color: rgb(201, 29, 163);
+    width: 500px;
+    margin: 36px auto 0 auto;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    background-color: rgb(171, 180, 163);
+    margin: 3px;
+    border-radius: 4px;
+    padding: 12px;
+    border-radius: 14px;
+    box-shadow: 5px 1px 20px rgb(171, 180, 163);
+}
+
+a{
+    color: rgb(17, 20, 209);
+    font-size: 15px;
+    background-color: rgb(212, 42, 147);
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 30px;
+    border: 1px solid yellow;
+    display: inline-block;
+    margin: 0;
+}
+
+a:hover {
+    text-decoration: none;
+    background-color: rgb(189, 206, 42);
+}
+
+ul {
+    font-size: 32px;
+    color: aqua;
+    width: 500px;
+    margin: 36px auto 0 auto;
+    padding: 0;
+}
+
+.impot {
+    background-color: rgb(93, 129, 160);
+}
+
+

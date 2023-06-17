@@ -1,12 +1,18 @@
+body {
+    text-align: center;
+    background-color: rgb(52, 139, 216);
+    margin: 20px;
+}
+
 h1 {
     font-family: 'Dancing Script', cursive, sans-serif;
     text-align: center;
-    color: rgb(162, 81, 209);
+    color: rgb(22, 19, 207);
 }
 p {
     font-family: Gill Sans;
     text-align: center;
-    color: rgb(39, 23, 3);
+    color: rgb(48, 148, 18);
 }
 a {
     color: rgb(75, 117, 117);
@@ -25,4 +31,11 @@ a:hover{
 
 #good {
     font-size: 30px;
+}
+
+img {
+    width: 500px;
+    height: 800px;
+    border-radius: 20px;
+    
 }
