@@ -5,6 +5,10 @@ body {
     margin: auto;
 }
 
+main{
+    justify-content: center;
+}
+
 
 #logo a{
     font-size: 30px;
