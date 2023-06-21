@@ -8,7 +8,7 @@ body {
 #logo a{
     padding: 10px;
     font-family: "Roleway", sans-serif;
-    color: rgb(150, 125, 94);
+    color: rgb(224, 155, 27);
     font-size: 30px;
     text-decoration: none;
     font-weight: bold;
@@ -32,12 +32,26 @@ ul li a{
     color: rgb(150, 125, 94);
 }
 
+header ul a:hover {
+    color: aquamarine;
+    background-color: rgb(54, 35, 10);
+    padding: 9px;
+    border-radius: 8px;
+}
+
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 15px 60px;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 /**navbar**/
+
+/**mainview point**/
+
+
 

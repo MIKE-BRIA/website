@@ -1,3 +1,4 @@
+
 #hero {
     height: 800px;
     background-image: url("/website/travelpage/images/places/landing.jpg");
@@ -13,5 +14,63 @@
     text-align: center;
     padding: 50px 0;
     margin: auto;
-    position: static;
+    position: relative;
+    top: 200px;
 }
+
+#hero-content h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: 'Dancing Script', sans-serif;
+    margin: 0;
+}
+
+#hero-content p{
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+#hero-content a{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: yellow;
+    padding: 8px;
+    border-radius: 4px;
+    color: black;
+    font-weight: 600;
+}
+
+#hero-content a:hover {
+    background-color: rgb(162, 110, 211);
+}
+
+
+
+#destinations{
+    margin: 40px;
+}
+
+#destinations img {
+    width: 100%;
+
+}
+
+.vill1 img{
+    height: 300px;
+    width: 100%;
+}
+
+.vill2 img{
+    height: 300px;
+    width: 100%;
+}
+
+.vill3 img{
+    height: 300px;
+    width: 100%;
+}
+
