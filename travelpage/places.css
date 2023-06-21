@@ -1,0 +1,36 @@
+header{
+    position: static;
+}
+
+body{
+    justify-content: center;
+    background: linear-gradient(35deg, rgb(109, 107, 107), rgb(116, 110, 110));
+}
+main li img{
+    height: 280px;
+    width: 300px;
+    object-fit: cover;
+}
+
+main ul{
+    width: 800px;
+    margin: 0 auto;
+}
+
+main li{
+    display: flex;
+    text-align: left;
+    background-color: white;
+    color: black;
+    box-shadow: 1px 1px 4px rgb(0,0,0,0.2);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.item-content{
+    padding: 24px;
+}
+
+main .actions a{
+    display: ;
+}
