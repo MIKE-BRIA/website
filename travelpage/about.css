@@ -1,75 +1,7 @@
-body {
-    background-image: url(/website/travelpage/images/places/set.jpg);
-    margin: 0;
-    text-align: center;
-    margin: auto;
-}
-
-main{
+main {
     justify-content: center;
 }
 
 
-#logo a{
-    font-size: 30px;
-    padding: 10px;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: "Roleway", sans-serif;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 2px rgb(33, 97, 47);
-    color: rgb(224, 155, 27);
-}
-
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    text-align: right;
-}
-
-ul li a{
-    text-decoration: none;
-    font-size: 22px;
-    margin-left: 30px;
-    padding: 20px;
-    color: rgb(174, 202, 13);
-}
-
-header ul{
-    display: flex;
-}
-
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px 60px;
-    width: 100%;
-    box-sizing: border-box;
-}
-
-header ul li a:hover {
-    background-color: rgb(139, 88, 20);
-    padding: 10px;
-    border-radius: 9px;
-}
-#me {
-    margin-top: 40px;
-    display: flex;
-}
-
-#me  p{
-    font-size: 30px;
-    padding: 20px;
-    text-align: left;
-    background-color: rgb(94, 94, 94, 0.4);
-    margin: 80px;
-}
-#me img{
-    height: 340px;
-}
-
-
+  
 
