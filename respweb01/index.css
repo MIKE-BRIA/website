@@ -1,0 +1,96 @@
+body{
+    font-family: 'Dancing Script', sans-serif;
+    background-color: rgb(128, 123, 117);
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+#main-header{
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(110, 113, 116);
+    padding: 0 20px;
+}
+
+#main-header a{
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+
+#main-header ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#main-header li{
+    margin: 0 16px;
+}
+
+#main-header nav a{
+    color: black;
+    font-size: 30px;
+}
+
+#main-header nav a:hover{
+    color: rgb(221, 126, 126);
+}
+
+main h1{
+    text-align: center;
+    color: rgb(211, 203, 192);
+    font-size: 35px;
+    text-transform: capitalize;
+}
+
+#product{
+    width: 70%;
+    margin: 50px auto;
+} 
+
+#product ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.Food{
+    background-color: rgb(121, 121, 92);
+    border-radius: 9px;
+    overflow: hidden;
+}
+
+.Food img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 9px;
+}
+
+.Food .content{
+    padding: 16px;
+    text-align: center;
+}
+
+.btn{
+    background-color: rgb(68, 66, 66);
+    padding: 10px;
+    border-radius: 9px;
+    color: rgb(136, 136, 148);
+    font-size: 20px;
+}
+
+.btn:hover{
+    background-color: rgb(114, 167, 151);
+    color: black;
+}
