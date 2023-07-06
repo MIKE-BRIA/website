@@ -1,0 +1,70 @@
+/**submit input button**/
+
+body{
+    background-color: rgb(110, 100, 100);
+    font-family: 'Roboto', sans-serif;
+}
+
+form{
+    width: 30rem;
+    margin: 3rem auto;
+    background-color: azure;
+    padding: 1rem;
+    border-radius: 7px;
+}
+
+label{
+    font-size: 22px;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+input,
+textarea,
+select{
+    width: 100%;
+    display: block;
+    height: 2rem;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    font: inherit;
+    border: 2px solid rgb(131, 161, 46);
+    padding: 0.25rem;
+    color: rgb(211, 164, 103);
+}
+
+input:focus,
+textarea:focus{
+    background-color: rgb(106, 170, 170);
+    color: rgb(141, 102, 55);
+    border-color: rgb(141, 102, 55) ;
+}
+
+button{
+    display: block;
+    padding: 9px;
+    font-size: 1.4rem;
+    border-radius: 9px;
+    font: normal 1.6rem 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: antiquewhite;
+}
+
+/** radio button**/
+
+.radio-button{
+    display: flex;
+}
+
+.radio-button input{
+    width: auto;
+    margin-right: 0.5rem;
+}
+
+/**radio-button-done**/
+
+/**check-boxes**/
+
