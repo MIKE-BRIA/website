@@ -10,56 +10,93 @@
     <title>html forms</title>
 </head>
 <body>
-    <form>
-        <!--inputbutton-->
-        <label for="boom">Enter Your Name</label>
-        <input type="text" name="user-name" id="boom" />
-        <!--textarea-->
-        <label for="usermessage">Your Message</label>
-        <textarea name="user-message" id="usermessage" cols="30" rows="10"></textarea>
+    <header>
+        <h1>Demo Form</h1>
+    </header>
+    <main>
+        <form action="/" method="GET">
+            <section>
+                <h2>Your personal details</h2>
+                <!--inputbutton-->
+                <ul>
+                    <li>
+                        <label for="boom">Enter Your Name</label>
+                        <input type="text" name="user-name" id="boom" required/> 
+                    </li>
+                    <li>
+                        <label for="useremail">Enter Your Email</label>
+                        <input type="email" name="user-email" id="useremail" required>
+                    </li>
+                    <li>
+                        <label for="userpassword">Your Password</label>
+                        <input type="password" name="user-password" id="userpassword" required minlength="7"> 
+                    </li>
+                </ul>
+            </section>
 
-        <label for="useremail">Enter Your Email</label>
-        <input type="email" name="user-email" id="useremail">
-        <label for="userage">Enter Your Age</label>
-        <input type="number" step="1"  name="user-age" id="userage">
-        <label for="userpassword">Your Password</label>
-        <input type="password" name="user-password" id="userpassword">
-        <label for="birthdate">Your BirthDate</label>
-        <input type="date" name="birth-date" id="birthdate">
-        <hr>
+            <section>
+                <h2>More details about you</h2>
+                <ul>
+                    <li>
+                        <label for="userage">Enter Your Age</label>
+                        <input type="number" step="1"  name="user-age" id="userage" required min="18"> 
+                    </li>
+                    <li>
+                        <label for="birthdate">Your BirthDate</label>
+                        <input type="date" name="birth-date" id="birthdate">
+                    </li>
+                    <li>
+                        <!--dropdown-->
+                        <label for="favourite-business">Your favourite business</label>
+                        <select name="business" id="favourite-business">
+                            <option value="bimax">Bimax</option>
+                            <option value="optimus">Optimus</option>
+                            <option value="omni">Omni Ent</option>
+                        </select>
+                    </li>
+                </ul>
+            </section>
 
-        <!--dropdown-->
-        <label for="favourite-business">Your favourite business</label>
-        <select name="business" id="favourite-business">
-            <option value="bimax">Bimax</option>
-            <option value="optimus">Optimus</option>
-            <option value="omni">Omni Ent</option>
-        </select>
+            <section>
+                <!--textarea-->
+                <label for="usermessage">Your Message</label>
+                <textarea name="user-message" id="usermessage" required rows="10"></textarea>
+            </section>
 
-        <!--radiobutton-->
-        <h2>How should we verify your account</h2>
-        <div class="radio-button">
-            <input type="radio" name="verify" id="verify-text-message" value="text message">
-            <label for="verify-text-message">Via text message (SMS)</label>
-        </div>
+            <section>
+                <h2>How should we verify your account</h2>
+                <ul>
+                    <!--radiobutton-->
+                    <li class="radio-button">
+                        <input type="radio" name="verify" id="verify-text-message" value="text message" required>
+                        <label for="verify-text-message">Via text message (SMS)</label>
+                    </li>
 
-        <div class="radio-button">
-            <input type="radio" name="verify"  id="verify-phone" value="Phone">
-            <label for="verify-phone">Via Phone call</label>
-        </div>
+                    <li class="radio-button">
+                        <input type="radio" name="verify"  id="verify-phone" value="Phone" required>
+                        <label for="verify-phone">Via Phone call</label>
+                    </li>
 
-        <div class="radio-button">
-            <input type="radio" name="verify" id="verify-email" value="email">
-            <label for="verify-email">Via an email</label> 
-        </div>
+                    <li class="radio-button">
+                        <input type="radio" name="verify" id="verify-email" value="email" required>
+                        <label for="verify-email">Via an email</label> 
+                    </li> 
+                </ul>
+            </section>
 
-        <!--checkbox-->
-        <div class="radio-button">
-            <input type="checkbox" id="agree-terms" name="terms">
-            <label for="agree-terms">Agree to terms</label>
-        </div>
-        
-        <button>submit</button>   
-    </form>
+            <hr>
+            <section>
+                <!--checkbox-->
+                <div class="radio-button">
+                    <input type="checkbox" id="agree-terms" name="terms">
+                    <label for="agree-terms">Agree to terms</label>
+                </div>
+            </section>
+
+            <section>
+                <button type="submit">submit</button> 
+            </section>
+        </form>
+    </main>
 </body>
 </html>
