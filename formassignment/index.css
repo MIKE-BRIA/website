@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(172, 172, 164);
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+header h1{
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+}
+
+form{
+    background-color: rgb(145, 129, 108);
+    margin: 3rem auto;
+    width: 30rem;
+    padding: 1rem;
+    border-radius: 9px;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+label{
+    font-size: 22px;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+form ul option{
+    font-size: 20px;
+}
+
+textarea{
+    resize: vertical;
+}
+
+input,
+textarea,
+select{
+    width: 100%;
+    height: 2rem;
+    display: block;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    padding: 0.25rem;
+    border: 2px solid rgb(88, 102, 129);
+    border-radius: 7px;
+}
+
+.radio-button{
+    display: flex;
+}
+
+.radio-button input{
+    width: auto;
+    margin-right: 0.5rem;
+}
+
+.click{
+    justify-content: right;
+    display: flex;
+}
+
+.click li{
+    padding: 10px;
+}
+
+.click li button{
+    padding: 10px;
+    font-size: 19px;
+    border-radius: 9px;
+    cursor: pointer;
+    background-color: rgb(145, 151, 151);
+}
+
+.click li button:hover{
+    background-color: black;
+
+}
