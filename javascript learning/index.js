@@ -24,5 +24,10 @@ alert(adultyears);
 console.log(37/4)
 
 
+//objects
+
+
+
+
 
 
