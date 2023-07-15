@@ -2,6 +2,9 @@ let age =32;
 let username = 'Mike';
 let hobbies = ['sport', 'hacking', 'building', 'reading', 'cooking'];
 
+
+//object
+
 let job = {
     title: "Developer",
     place: "Nairobi",
@@ -21,13 +24,18 @@ function calculateadultyears(){
 adultyears=calculateadultyears();
 alert(adultyears);
 
-console.log(37/4)
+console.log(37/4);
 
+// objects
 
-//objects
+let person = {
+    name: CSSMathMax,//property
 
+    //function we do not have the function keyword if its in a object
 
+    greet(){
+        console.log("Hello everyone")//method
+    }
+};
 
-
-
-
+person.greet();
