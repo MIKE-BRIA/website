@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(116, 141, 141);
+    margin: 0;
+    padding: 3rem;
+}
+
+.container{
+    width: 400px;
+    height: 20rem;
+    background-color: rgba(115, 134, 151, 0.6);
+    margin: 0 auto;
+    border-style: solid;
+    border-width: 0.3rem;
+    border-color: white;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+#main-heading{
+    font-weight: bold;
+}
+
+.container ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.list-items{
+    list-style: none;
+    font-size: 2rem;
+    color: black;
+    background-color: aliceblue;
+    margin: 0.2rem;
+}
