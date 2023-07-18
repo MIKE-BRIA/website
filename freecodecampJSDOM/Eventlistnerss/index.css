@@ -1,0 +1,50 @@
+
+
+body{
+    background-color: rgb(118, 153, 165);
+    margin: 0;
+    padding: 0;
+}
+
+#main-heading{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 3rem;
+    padding: 2rem;
+}
+
+.container{
+    display: flex;
+    width: 41rem;
+    margin: 0 auto;
+    height: 15rem;
+    padding: 3rem;
+    justify-content: space-around;
+}
+
+.reveal-btn{
+    padding: 2rem;
+    font-size: 1.4rem;
+    height: 15rem;
+    background-color: rgb(118, 153, 165) ;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.15rem;
+    border-radius: 9px;
+}
+
+.hidden-content{
+    padding: 1.6rem;
+    font-size: 1.3rem;
+    border-style: solid;
+    border-color: white;
+    border-width: 0.15rem;
+    border-radius: 9px;
+    margin-left: 9px;
+    
+}
+
+.hidden-content .reveal-btn{
+    display: block;
+}
+
