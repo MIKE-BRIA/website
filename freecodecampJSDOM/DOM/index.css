@@ -2,6 +2,7 @@ body{
     background-color: rgb(116, 141, 141);
     margin: 0;
     padding: 3rem;
+    height: 100vh;
 }
 
 .container{
