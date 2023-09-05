@@ -15,7 +15,7 @@ results = results + 1; // results ++; // results +=1
 console.log(results);
 
 //concatenation of strings
-console.log("Brian" + " Michawel");
+console.log("Brian" + " Michael");
 
 //string operation and string methods
 
