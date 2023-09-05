@@ -12,6 +12,14 @@ body{
     background-position: center;
 }
 
+.container{
+    background-color: rgb(121, 121, 121, 0.5);
+    max-width: 80%;
+    margin: auto;
+    border-radius: 9px;
+    border: 2px solid white;
+}
+
 #top h1{
     padding: 3rem;
     font-size: 4rem;
@@ -41,4 +49,10 @@ body{
 
 #decrement-btn{
     background-color: darkred;
+}
+
+#save-el{
+    font-size: 2rem;
+    text-align: center;
+    padding: 4rem;
 }

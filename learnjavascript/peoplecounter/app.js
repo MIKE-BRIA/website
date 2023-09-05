@@ -1,16 +1,27 @@
-document.getElementById("count-el").innerText=3458167
+//document.getElementById("count-el").innerText=3458167
+
+let countEl = document.getElementById("count-el")
+console.log(countEl)
 
 let count = 0
 function increment(){
-    count = count +1
-    console.log("The button was clicked", count)
+    count +=1
+    countEl.innerText= count
 }
 
-increment();
+function decrement(){
+    count -=1
+    countEl.innerText=count
+}
 
+let saveEl = document.getElementById("save-el")
 
-
-
+function save(){
+    let entry= count + " - "
+    saveEl.textContent += entry
+    countEl.innerText=0
+    count =0
+}
 
 
 
@@ -50,3 +61,6 @@ function complete(){
 };
 
 complete()
+
+let mess ="You got three new messages buddy";
+console.log(mess)
