@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("images/pic.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+#top h1{
+    padding: 3rem;
+    font-size: 4rem;
+    text-align: center;
+}
+
+#top h2{
+    padding: 1rem;
+    font-size: 5rem;
+    text-align: center;
+}
+
+#top button{
+    display: block;
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 9px;
+    width: 200px;
+    margin:10px auto;
+    font-weight: bold;
+}
+
+#increment-btn{
+    background-color: darkgreen;
+}
+
+#decrement-btn{
+    background-color: darkred;
+}
