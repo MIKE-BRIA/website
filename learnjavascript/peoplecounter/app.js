@@ -31,7 +31,7 @@ function save(){
 
 
 
-//practise
+//practise not part of the main code
 
 
 function log(){
