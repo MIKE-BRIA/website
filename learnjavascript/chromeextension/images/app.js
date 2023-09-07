@@ -1,27 +1,33 @@
-//document.getElementById("input-btn").innerText
 
-//adding eventlisteners
-let myLeads = ["www.bimax.com","www.ghost.com","www.woland.com"]
-const inputEl = document.getElementById("input-el")
-let inputBtn= document.getElementById("input-btn")
-const ulEl = document.getElementById("ul-el")
+let myLeads = [];
+const inputEl = document.getElementById("input-el");
+const inputBtn = document.getElementById("input-btn");
+const ulEl = document.getElementById("ul-el");
 
-
-inputBtn.addEventListener("click", function(){
+inputBtn.addEventListener("click", function() {
     let inputValue = inputEl.value;
-    myLeads.push(inputValue)
+    if (inputValue.trim() !== "") {
+        myLeads.push(inputValue);
+        inputEl.value = ""; // Clear the input field after adding an item
 
-    for (let i = 0; i < myLeads.length; i++){
-        ulEl.innerHTML += "<li>" + myLeads[i] + "</li>"
-
-        ///this is the same thing as the one that is above
-
-        //const li= document.createElement("li")
-        //li.textContent = myLeads[i]
-        //ulEl.append(li)
-        
+        renderLeads(); // Update the list on the page
     }
-    
-})
+});
+
+function renderLeads() {
+    ulEl.innerHTML = ""; // Clear the list before re-rendering
+
+    for (let i = 0; i < myLeads.length; i++) {
+        const li = document.createElement("li");
+        li.textContent = myLeads[i];
+        ulEl.appendChild(li);
+    }
+}
+
+// Optional: Render the leads when the page loads if you have stored leads in localStorage
+// You can add this code outside the event listener
+// renderLeads();
+
+
 
 
