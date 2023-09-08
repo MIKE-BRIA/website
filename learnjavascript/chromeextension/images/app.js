@@ -15,13 +15,23 @@ inputBtn.addEventListener("click", function() {
 });
 
 function renderLeads() {
-    ulEl.innerHTML = ""; // Clear the list before re-rendering
+    let listItems = ""; // Clear the list before re-rendering
 
     for (let i = 0; i < myLeads.length; i++) {
-        const li = document.createElement("li");
-        li.textContent = myLeads[i];
-        ulEl.appendChild(li);
+
+        listItems += `
+        <li>
+            <a target='_blank' href='${myLeads[i]}'>" + myLeads[i] + "</a>
+        </li>
+        `
+        
+        //ulEl.innerHTML += `<li><a target='_blank' href='${myLeads[i]}'>" + myLeads[i] + "</a></li>`
+        //console.log(ulEl.innerHTML)
+        //const li = document.createElement("li");
+        //li.textContent = myLeads[i];
+        //ulEl.appendChild(li);
     }
+    ulEl.innerHTML = listItems
 }
 
 // Optional: Render the leads when the page loads if you have stored leads in localStorage

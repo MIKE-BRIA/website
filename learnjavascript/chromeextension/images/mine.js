@@ -30,3 +30,9 @@ inputBtn.addEventListener("click", function(){
     }
     
 })
+
+
+
+const li = document.createElement("li");
+        li.textContent = myLeads[i];
+        ulEl.appendChild(li);
