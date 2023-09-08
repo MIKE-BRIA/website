@@ -21,8 +21,21 @@ body{
     background-color: rgb(140, 0, 255);
     border: 1px solid rgb(140, 0, 255);
     color: white;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .btn-alt{
+    background-color: transparent;
+    border-color: transparent;
+    color: rgb(140, 0, 255);
+}
 
+.btn:hover{
+    background-color: rgb(77, 52, 97);
+    border-color: rgb(81, 53, 104);
+}
+
+.btn-alt:hover{
+    background-color: rgb(137, 121, 150);
 }
