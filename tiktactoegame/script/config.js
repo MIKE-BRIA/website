@@ -9,6 +9,8 @@ function closePlayerConfig(){
     backDrop.style.display = 'none';
     formElement.firstElementChild.classList.remove('error')
     errorsOutput.textContent = '';
+    formElement.firstElementChild.lastElementChild.value = '';
+    //let PlayerD=getElementById('playername').value = '';
 }
 
 function savePlayerConfig(event){
@@ -24,4 +26,8 @@ function savePlayerConfig(event){
 
     const updatedPlayerdata= document.getElementById('player-' + editedPlayer + '-data');
     updatedPlayerdata.children[1].textContent = enteredPlayername;
+
+    players[editedPlayer - 1].name = enteredPlayername;
+
+    closePlayerConfig();
 }
